@@ -6,7 +6,7 @@
 %define	pdir	Config
 %define	pnam	Context
 Summary:	Config::Context - Add <Location> and <LocationMatch> style context matching to hierarchical configfile formats such as Config::General, XML::Simple and Config::Scoped
-Summary(pl):	Config::Context - dodawanie dopasowywania kontekstu w stylu <Location> i <LocationMatch> do hierarchicznych formatów takich jak Config::General, XML::Simple czy Config::Scoped
+Summary(pl.UTF-8):	Config::Context - dodawanie dopasowywania kontekstu w stylu <Location> i <LocationMatch> do hierarchicznych formatów takich jak Config::General, XML::Simple czy Config::Scoped
 Name:		perl-Config-Context
 Version:	0.10
 Release:	0.1
@@ -40,7 +40,7 @@ and Config::Scoped.
 It also provides Apache-style context matching. You can include blocks
 of configuration that match or not based on run-time parameters.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten moduł udostępnia spójny interfejs do wielu hierarchicznych
 formatów plików konfiguracyjnych, takich jak Config::General,
 XML::Simple czy Config::Scoped.
