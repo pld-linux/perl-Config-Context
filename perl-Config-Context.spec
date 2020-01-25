@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Config
 %define	pnam	Context
 Summary:	Config::Context - Add <Location> and <LocationMatch> style context matching to hierarchical configfile formats such as Config::General, XML::Simple and Config::Scoped
